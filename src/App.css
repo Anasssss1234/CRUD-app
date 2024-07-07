@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-color:#000000d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background .container{
+    width: 330px;
+    height: 350px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.background .container .header{
+    text-align: center;
+    margin-top: 20px;
+}
+.background .container .input{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.background .container .input input{
+    width: 210px;
+    padding: 6px 14px;
+    border: 1px solid #000000d7 ;
+    border-radius: 5px;
+}
+.btn {
+    margin-left: 10px;
+}
+.btn button{
+    padding: 6px 7px;
+    cursor: pointer;
+}
+.background .container .details{
+    margin: 20px 0px 0px 40px;
+    width: 210px;
+    padding: 6px 10px;
+    border: 1px solid #000000d7 ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons i{
+    margin-left: 10px;
+}
+
+.background .container .details i{
+    cursor: pointer;
+}
+.btn-2{
+    text-align: center;
+    margin-top: 20px;
+}
